@@ -1,0 +1,38 @@
+/*CSS Reset*/
+{
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #808080;
+}
+
+.landing-page {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #008000;
+  color: #FFD700;
+}
+
+.landing-page h1 {
+  font-size: 1.5em;
+  text-align:;
+}
+
+.landing-page p {
+  font-size: 1em;
+}
+
+#education
+align-items right
+
+
+/* Add additional styling as needed */
