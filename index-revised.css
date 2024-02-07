@@ -1,0 +1,50 @@
+/*CSS Reset*/
+{
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #808080;
+  background-image: url('FEU-M.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.landing-page {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #013220;
+  color: #FFD700;
+}
+
+.landing-page h1 {
+  font-size: 1.5em;
+  text-align:;
+}
+
+.landing-page p {
+  font-size: 1em;
+}
+
+.pre-footer h5, h3, p {
+  color: #FFD700;
+
+}
+footer {
+  background-color: #013220; /* Replace with your desired color */
+  color: #fff; /* Text color for the footer */
+  padding: 1em; /* Adjust as needed */
+  text-align: center; /* Align text in the center */
+}
+
+
+
