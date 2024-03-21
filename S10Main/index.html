@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasaload System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pasaload System</h1>
+          <p>Welcome to Daves Pasa Load System</p>
+        <div>
+            <label for="sender">Sender:</label>
+            <input type="text" id="sender" placeholder="Enter sender's phone number">
+        </div>
+        <div>
+            <label for="receiver">Receiver:</label>
+            <input type="text" id="receiver" placeholder="Enter receiver's phone number">
+        </div>
+        <div>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount to transfer">
+        </div>
+        <button onclick="transferLoad()">Transfer Load</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
