@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    .dark-green-card {
+      background-color: #013220;
+    }
+
+    .gold-card-title {
+      color: gold;
+    }
+
+    /* Red background for dropdown */
+    .dropdown-menu {
+      background-color: red;
+    }
+
+    /* Red background for footer */
+    .footer {
+      background-color: red;
+      color: white;
+    }
+
+    /* Styling for battle log */
+    #battleLog {
+      height: 180px;
+      overflow-y: auto;
+      background-color: #0000;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    #battleLog p {
+      margin: 5px 0;
+    }
+  </style>
+
+  <title>PORTFOLIO</title>
+</head>
+<body>
+
+  <!-- Landing Page -->
+  <div class="landing-page text-center">
+
+    <h1 class="animate__animated animate__fadeInDown">WELCOME TO THE POKEMON ARENA</h1>
+    <p class="animate__animated animate__fadeInUp">FOR TODAY'S EVENT WE HAVE A BATTLE BETWEEN CHARMANDER VS PIKACHU</p>
+    
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card dark-green-card" id="card-1">
+        <img src="Charm.gif" class="card-img-top" alt="Charm">
+        <div class="card-body">
+          <h5 class="card-title gold-card-title white-text">CHARMANDER:</h5>
+          <p>MOVESET:</p>
+          <button id="tackleButton1" class="btn btn-danger tackle-button btn-lg animate__animated animate__fadeIn">Tackle</button>
+          <button id="emberButton" class="btn btn-danger tackle-button btn-lg animate__animated animate__fadeIn">Ember</button>
+          <button id="scratchButton2" class="btn btn-danger  tackle-button btn-lg animate__animated animate__fadeIn">Scratch</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card dark-green-card" id="card-2">
+        <img src="TRAIN.gif" class="card-img-top" alt="TRAIN">
+        <div class="card-body">
+          <h5 class="card-title gold-card-title">BATTLE LOG</h5>
+          <div id="battleLog">
+            <!-- Battle log will be displayed here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card dark-green-card" id="card-3">
+        <img src="PIK.gif" class="card-img-top" alt="PIK">
+        <div class="card-body">
+          <h5 class="card-title gold-card-title">PIKACHU</h5>
+          <p class="card-text">MOVESET:</p>
+          <button id="tackleButton2" class="btn btn-warning tackle-button btn-lg animate__animated animate__fadeIn">Tackle</button>
+          <button id="thunderboltButton" class="btn btn-warning tackle-button btn-lg animate__animated animate__fadeIn">Thunderbolt</button>
+          <button id="scratchButton" class="btn btn-warning tackle-button btn-lg animate__animated animate__fadeIn">Scratch</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Portfolio Section -->
+
+  <!-- Pre-footer -->
+  <div class="pre-footer text-center mt-5" id="Pre-footer">
+    <h3>WWW.DRVSPKBTTLE>NET</h3>
+  </div>
+  <!-- End Pre-footer -->
+
+  <!-- Footer -->
+  <footer class="footer text-center mt-3">
+    <p>&copy; 2024 | Rivas, Dave Maurece| All Rights Reserved</p>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="index.js"></script>
+
+</body>
+</html>

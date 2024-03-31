@@ -1,0 +1,79 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #808080;
+  background-image: url('Gym.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dark-green-card {
+  background-image: url('Gym.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.gold-card-title,
+.card-body {
+  color: white; /* Set font color to white */
+}
+.white-text {
+  color: white;
+}
+
+
+.landing-page {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000;
+  color: white;
+}
+
+.landing-page h1 {
+  font-size: 1.5em;
+}
+
+.landing-page p {
+  font-size: 1em;
+}
+
+.pre-footer h5,
+.pre-footer h3,
+.pre-footer p {
+  color: white;
+}
+
+.footer {
+  background-color: #013220;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.tackle-button {
+  margin-right: 5px;
+}
+
+#battleLog {
+  height: 180px;
+  overflow-y: auto;
+  background-color: #333;
+  color: white; /* Set battle log font color to white */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#battleLog p {
+  margin: 5px 0;
+}
